@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(update-config)",
+      "Read(//c/Users/fkdrn/.claude/**)",
+      "Read(//c/Users/fkdrn/Desktop/code/**)",
+      "Bash(python3 -c \" import json with open\\('C:/Users/fkdrn/Desktop/baro-erp/package.json'\\) as f: d = json.load\\(f\\) print\\('scripts:', json.dumps\\(d.get\\('scripts',{}\\), indent=2, ensure_ascii=False\\)\\) print\\('name:', d.get\\('name'\\)\\) \")",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(python -c ' *)",
+      "PowerShell(python3 --version 2>&1)",
+      "PowerShell(py --version 2>&1)"
+    ]
+  }
+}

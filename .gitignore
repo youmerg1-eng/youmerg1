@@ -1,0 +1,23 @@
+# ─── 배포 시 제외 ───
+node_modules/
+*.log
+.DS_Store
+Thumbs.db
+.netlify/
+.env
+.env.local
+
+# 다른 프로젝트 폴더 (배포 불필요)
+everything-claude-code-main/
+
+# 백업 폴더 (배포 불필요)
+HTML_백업*/
+
+# OS 임시 파일
+~$*
+*.tmp
+
+# 에디터
+.vscode/
+.idea/
+*.swp
